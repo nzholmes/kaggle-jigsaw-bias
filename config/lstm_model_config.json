@@ -1,0 +1,17 @@
+{
+  "seed": 1029,
+  "maxlen": 230,
+  "max_features": 100000000,
+  "bn_sn_ratio": 4,
+  "n_splits": 10,
+  "n_epochs": 5,
+  "n_train_fold": 5,
+  "batch_size": 512,
+  "lstm_units": 128,
+  "step_size": 100,
+  "base_lr":0.001,
+  "max_lr": 0.003,
+  "lr": 0.001,
+  "enable_checkpoint_ensemble": true,
+  "save_checkpoint": true
+}
