@@ -1,0 +1,17 @@
+{
+  "lm_model_name": "bert-base-uncased",
+  "model_path": "./input/pretrained_model",
+  "maxlen": 220,
+  "max_head_len": 128,
+  "bn_sn_ratio":4,
+  "epochs": 2,
+  "lr": 2e-5,
+  "batch_size": 32,
+  "accumulation_steps": 1,
+  "warmup_proportion": 0.05,
+  "scheduler_type": "warmup_linear",
+  "is_apex_optimizer": true,
+  "model_type":"last_concat4",
+  "device": "cuda",
+  "seed": 1029
+}
