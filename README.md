@@ -15,6 +15,9 @@ More details:
 * Did [language model finetuning for Bert](https://github.com/huggingface/pytorch-pretrained-BERT/tree/master/examples/lm_finetuning) on competition text, which didn't give much help.
 * GPT2 models were fine-tuned but were not in final model ensemble, which should have been included.
 
+Some of the ideas came from discussions and kernels in the competition forum and the paper: [How to Fine-Tune BERT for Text Classification?](https://arxiv.org/pdf/1905.05583.pdf)
+
+
 ## The loss
 
 All of the models were trained with a combination of weighted BCE loss and auxiliary loss. 
